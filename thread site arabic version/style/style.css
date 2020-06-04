@@ -1,0 +1,139 @@
+body{
+    background-color: darkgray;
+    width: 100%;
+    height: auto;
+}
+#createAccount{
+    background-color:rgb(7, 97, 109);
+    box-shadow: black 10px 10px 50px;
+}
+#createTh{
+    background-color:rgb(255, 255, 255);
+    box-shadow: black 10px 10px 50px;
+}
+#upimg{
+    display: none;
+}
+#thread-body{
+    min-height: 200px;
+}
+#theimg{
+    width:300px; 
+    height:350px;
+}
+#itemImg{
+    width:100%; 
+    height:350px;
+}
+#buttonup{
+    font-size: 150px;
+    border: none;
+    opacity: 0.0;
+    width:300px; 
+    height:350px;
+    text-align: center;
+    position: absolute;
+    margin: auto;
+    display: block;
+    padding: 0;
+    z-index: 100;
+}
+#buttonup:hover{
+    opacity: 0.3;
+}
+#accimg{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+#userblock{
+    height: 200px;
+    width: 100px;
+    text-align: center;
+    float: right;
+}
+#thbo{
+    min-height: 300px;
+    padding: 50px;
+    padding-bottom: 100px;
+}
+#thread{
+   margin-right: 120px;
+   font-weight: bold;
+   font-size: large;
+   word-wrap: break-word;
+   max-width: 100%;
+   -webkit-hyphens: auto; /* iOS 4.2+ */
+   -moz-hyphens: auto; /* Firefox 5+ */
+   -ms-hyphens: auto; /* IE 10+ */
+   hyphens: auto;
+}
+.footer{
+    clear: both;
+    position: relative;
+    left: 0;
+   bottom: 0;
+   height: 200px;
+    margin-top: -200px;
+    width: 100%;
+    background: rgb(38, 120, 214);
+    height: 60px;
+    text-align: center;
+    font-size: large;
+}
+#activepage{
+    background-color: dodgerblue;
+    float: left;
+    text-decoration: none;
+    width: 35px;
+    height: 35px;
+    border: 4px double rgb(209, 209, 209);
+    border-radius: 5px;
+    outline: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: black;
+ }
+#pagenum{
+    float: left;
+    background: white;
+    text-decoration: none;
+    width: 35px;
+    height: 35px;
+    border: 4px double rgb(209, 209, 209);
+    border-radius: 5px;
+    outline: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: black;
+}
+#loading{
+    position: absolute;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    z-index: 99;
+    text-align: center;
+    font-size: 150px;
+}
+#imgprof{
+    height:50px;
+    width: 50px;
+    border-radius: 50%;
+}
+#links{
+    color: black;
+    outline: none;
+    text-decoration: none;
+    font-size: 25px;
+}
+.khamsat img{
+    position: relative;
+    bottom:5px;
+    height: 20px;
+    width: 20px;
+}

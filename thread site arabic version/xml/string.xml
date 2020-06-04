@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<languages>
+  <english>
+	<page></page>
+	<errors>
+		<usersMatch>Username must be more than 4 characters and less than 50</usersMatch>
+		<passMatch>password must be more than 4 characters and less than 50</passMatch>
+		<emailMatch>email must be more than 4 characters and less than 50</emailMatch>
+		<ExistUserOrEmail>username or email is already exist</ExistUserOrEmail>
+	</errors>
+  </english>
+</languages>
