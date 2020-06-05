@@ -75,7 +75,7 @@ body{
    bottom: 0;
     width: 100%;
     background: rgb(38, 120, 214);
-    height: 60px;
+    height: auto;
     text-align: center;
     font-size: large;
 }
