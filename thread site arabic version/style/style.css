@@ -1,7 +1,7 @@
 body{
     background-color: darkgray;
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 #createAccount{
     background-color:rgb(7, 97, 109);
@@ -73,8 +73,6 @@ body{
     position: relative;
     left: 0;
    bottom: 0;
-   height: 200px;
-    margin-top: -200px;
     width: 100%;
     background: rgb(38, 120, 214);
     height: 60px;
@@ -136,4 +134,7 @@ body{
     bottom:5px;
     height: 20px;
     width: 20px;
+}
+.contant{
+    min-height: calc(100vh - 70px);
 }
